@@ -1,0 +1,33 @@
+# .gitignore
+
+# Build artifacts
+/build/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+
+# Dependency directories
+/lib/
+/vendor/
+
+# CMake build directory
+/CMakeFiles/
+/CMakeScripts/
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Executables
+*.out
+
+# Ignore your specific build system files
+# Add any additional patterns based on your build system or tools
